@@ -15,8 +15,7 @@ int main()
     // Array Traversing
     for (int j = 0; j < 10; j++)
     {
-        cout << "Index: " << j
-             << " and Value: " << n[j] << endl;
+        cout <<  "Value: " << n[j] << endl;
     }
 
     return 0;

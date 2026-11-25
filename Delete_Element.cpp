@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    int arra[] = {2, 3, 4, 5, 2};
+    int arr[] = {2, 3, 4, 5, 2};
 
     int size_arr = 5;
     int pos;
@@ -16,7 +16,7 @@ int main()
         // Shift elements to the left
         for (int i = pos; i < size_arr - 1; i++)
         {
-            arra[i] = arra[i + 1];
+            arr[i] = arr[i + 1];
         }
 
         size_arr--;
@@ -25,7 +25,7 @@ int main()
 
         for (int i = 0; i < size_arr; i++)
         {
-            cout << arra[i] << " ";
+            cout << arr[i] << " ";
         }
     }
     else
